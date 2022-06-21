@@ -13,6 +13,8 @@
 		CC4C0C1A2860D2E100D118A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4C0C182860D2E100D118A5 /* Main.storyboard */; };
 		CC4C0C1C2860D2E200D118A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC4C0C1B2860D2E200D118A5 /* Assets.xcassets */; };
 		CC4C0C1F2860D2E200D118A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4C0C1D2860D2E200D118A5 /* LaunchScreen.storyboard */; };
+		CC4C0C282860D30700D118A5 /* Extension + String.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4C0C272860D30700D118A5 /* Extension + String.swift */; };
+		CC4C0C2A2860D54100D118A5 /* PhoneFormater.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4C0C292860D54100D118A5 /* PhoneFormater.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,9 @@
 		CC4C0C1B2860D2E200D118A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC4C0C1E2860D2E200D118A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC4C0C202860D2E200D118A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC4C0C272860D30700D118A5 /* Extension + String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + String.swift"; sourceTree = "<group>"; };
+		CC4C0C292860D54100D118A5 /* PhoneFormater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneFormater.swift; sourceTree = "<group>"; };
+		CC4C0C30286195F400D118A5 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +61,7 @@
 		CC4C0C112860D2E100D118A5 /* MaskFor Textfield */ = {
 			isa = PBXGroup;
 			children = (
+				CC4C0C262860D2F400D118A5 /* Extensions */,
 				CC4C0C122860D2E100D118A5 /* AppDelegate.swift */,
 				CC4C0C142860D2E100D118A5 /* SceneDelegate.swift */,
 				CC4C0C162860D2E100D118A5 /* ViewController.swift */,
@@ -63,8 +69,18 @@
 				CC4C0C1B2860D2E200D118A5 /* Assets.xcassets */,
 				CC4C0C1D2860D2E200D118A5 /* LaunchScreen.storyboard */,
 				CC4C0C202860D2E200D118A5 /* Info.plist */,
+				CC4C0C292860D54100D118A5 /* PhoneFormater.swift */,
+				CC4C0C30286195F400D118A5 /* readme.md */,
 			);
 			path = "MaskFor Textfield";
+			sourceTree = "<group>";
+		};
+		CC4C0C262860D2F400D118A5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CC4C0C272860D30700D118A5 /* Extension + String.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +156,9 @@
 			files = (
 				CC4C0C172860D2E100D118A5 /* ViewController.swift in Sources */,
 				CC4C0C132860D2E100D118A5 /* AppDelegate.swift in Sources */,
+				CC4C0C282860D30700D118A5 /* Extension + String.swift in Sources */,
 				CC4C0C152860D2E100D118A5 /* SceneDelegate.swift in Sources */,
+				CC4C0C2A2860D54100D118A5 /* PhoneFormater.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
