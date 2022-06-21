@@ -45,6 +45,7 @@
 		CC4C0C062860D2E100D118A5 = {
 			isa = PBXGroup;
 			children = (
+				CC4C0C30286195F400D118A5 /* readme.md */,
 				CC4C0C112860D2E100D118A5 /* MaskFor Textfield */,
 				CC4C0C102860D2E100D118A5 /* Products */,
 			);
@@ -70,7 +71,6 @@
 				CC4C0C1D2860D2E200D118A5 /* LaunchScreen.storyboard */,
 				CC4C0C202860D2E200D118A5 /* Info.plist */,
 				CC4C0C292860D54100D118A5 /* PhoneFormater.swift */,
-				CC4C0C30286195F400D118A5 /* readme.md */,
 			);
 			path = "MaskFor Textfield";
 			sourceTree = "<group>";
